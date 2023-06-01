@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 14px;
+    color:red;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+}
+
+nav .container, footer .container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav-link {
+    font-size: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link a {
+    transition: 0.3s all;
+}
+
+.nav-link a:hover {
+    transform: scale(1.2);
+}
+
+.home {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url(fotowoltaika.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.home-shadow {
+    height: 100%;
+    background-color: rgba(53, 53, 53, 0.4);
+}
+
+.home-shadow .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.landing-page-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 18%;
+}
+
+.home button {
+    width: 160px;
+    height: 40px; 
+    margin: 20px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: 1s all;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.home button:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+.offer {
+    background-color: black;
+}
+
+.offer-title h1{
+    margin: 10px 10px 30px 10px;
+    padding: 10px; 
+    border-bottom: 2px solid white;
+}
+
+.offer-point {
+    margin: 10px;
+    padding: 10px; 
+    width: 25%;
+    height: 100px;
+    background-color: rgb(0, 0, 105);
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer-multiple {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+}
+
+
+footer {
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    color: black;
+}
+
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
